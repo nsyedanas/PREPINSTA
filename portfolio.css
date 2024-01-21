@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-color:#F2F2F2;
+    color:#FF340A;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    
+}
+.nav{
+    padding-top:20px;
+    margin-right:85px;
+    display:inline-block;
+    
+}
+.linkedincontact:hover,.nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+h1{
+    display:inline-block;
+    position:absolute;
+    font-size: 180px;
+    margin:0px 0px;
+    font-family: "Dancing Script", cursive;
+}
+.profile{
+    z-index:-2;
+    margin-left:900px;
+}
+header{
+    position:fixed;
+    right:30px;
+}
+.email{
+    padding-top:90px;
+    font-size:30px;
+}
+.description{
+    display:inline-block;
+    position:absolute;
+    top:500px;
+    width:500px;
+    
+}
+h2,h1,p{
+    margin-left:80px;
+}
+p{
+    
+    line-height: 35px;
+}
+.about{
+    margin-left:900px;
+}
+table{
+    text-align: center;
+    padding:100px 0px 100px 0px;
+}
+td,th{
+    padding:20px 10px 20px 10px;
+    border:1px solid black;
+}
+.education{
+    background-color: #E4E4E4;
+}
+
+.courses{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px 100px 50px 100px;
+    
+}
+.coursetitle,.interntitle{
+    padding:20px 0px 20px 0px;
+}
+.intern{
+    padding:50px 100px 50px 100px;
+}
+.des{
+    padding:10px 0px 10px 0px;
+}
+.landingpage,.calc,.portfolio{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects{
+    display:grid;
+    grid-template-rows: 150px 150px 150px;
+    padding:0px 50px 0px 50px;
+}
+.project{
+    text-align: left;
+}
+.projecttitle{
+    padding:0px 0px 0px 50px;
+}
+.internship{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin:-40px 100px 0px 100px;
+    align-items: center;
+   
+    
+}
+.works{
+    margin:50px 0px 0px 0px;
+    background-color:#E4E4E4 ;
+    padding-bottom:100px;
+}
+.coursetitle,.interntitle,.edutitle,.skillstitle{
+    display:absolute;
+    font-size:100px;
+    font-family: "Dancing Script", cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.contact{
+    padding:100px 0px 200px 0px;
+    background-color:#E4E4E4 ;
+}
+.emailcontact,.linkedincontact{
+    padding:10px 0px 10px 0px;
+}
+
+.des{
+    cursor: pointer;
+}
+a{
+    color:#FF340A;
+    text-decoration:none;
+}
+img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.one,.two{
+    display:inline-block;
+    margin-left:10px;
+}
+.suiux,.sfoundation,.sintern{
+    padding-top:100px;
+}
+.scertificateui:hover,.scertificateux:hover,.scertificateintern:hover{
+    box-shadow: none;
+    cursor:default;
+}
+.sdes{
+    padding-top:10px;
+}
+.skillstable{
+    margin-top:-70px;
+}
+
+
+
